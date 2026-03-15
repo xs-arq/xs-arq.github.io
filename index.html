@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xs_arq | arquitectura / gráfica / BIM</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Roboto+Mono&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Tu paleta de colores y variables */
+        :root {
+            --bg-hielo: #F7F8FA;
+            --texto-tinta: #121212;
+            --azul-acero: #4A6FA5;
+            --morado-amatista: #7B61FF;
+            --rosa-polvo: #D8BFD8;
+        }
+
+        body {
+            background-color: var(--bg-hielo);
+            color: var(--texto-tinta);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Estilo para Títulos */
+        h1, h2, h3 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        /* Estilo Técnico (BIM / Cotas) */
+        .tecnico {
+            font-family: 'Roboto Mono', monospace;
+            color: var(--azul-acero);
+            font-size: 0.9em;
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            max-width: 1000px;
+            width: 90%;
+            margin-top: 50px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            border-bottom: 1px solid var(--rosa-polvo);
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="hero">
+            <h1>xs_arq</h1>
+            <p>Intervención mínima. Precisión máxima.</p>
+            <p class="tecnico">[ arquitectura / gráfica / BIM ]</p>
+        </div>
+
+        <div style="margin-top: 50px;">
+            <h2>Portafolio</h2>
+            <p>Aquí irá la grilla con los renders de tus proyectos...</p>
+        </div>
+        
+        <div style="margin-top: 50px; padding-bottom: 100px;">
+            <h2>Contacto</h2>
+            <p>Santiago, Chile</p>
+            <p class="tecnico">ig: @xs_arq</p>
+        </div>
+    </div>
+
+</body>
+</html>
